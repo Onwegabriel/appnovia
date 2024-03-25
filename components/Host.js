@@ -6,58 +6,31 @@ const Host = () => {
 
     <section class="blog" id="blog">
 
-    <h1 class="heading">Meet our hosts:</h1>
 
     <div class="box-container">
 
         <div class="box reveal">
-            <div class="image">
-                <img src="img/blog-1.jpg" alt=""/>
-            </div>
-            <div class="content">
-                <h3>Bella Jimenez</h3>
-                <div class="icons">
-                    <a href="#"><i class="fas fa-calendar"></i> Creative Strategist</a>
-                </div>
-                <div className="flex items-center gap-5 reveal">
-                <BsFacebook style={{fontSize:"20px", display:"flex"}}/>
-                <BsLinkedin style={{fontSize:"20px"}}/>
-                <BsTwitter style={{fontSize:"20px"}}/>
-                </div>
+            <div class="image" style={{height:"500px"}}>
+                <img src="img/p5.jpg" alt=""/>
             </div>
         </div>
 
         <div class="box reveal">
-            <div class="image">
-                <img src="img/img (6).jpg" alt=""/>
-            </div>
-            <div class="content">
-                <h3>Edwin Watson</h3>
-                <div class="icons">
-                    <a href="#"><i class="fas fa-calendar"></i>Creative Strategist</a>
-                </div>
-               <div className="flex items-center gap-5 reveal">
-                <BsFacebook style={{fontSize:"20px", display:"flex"}}/>
-                <BsLinkedin style={{fontSize:"20px"}}/>
-                <BsTwitter style={{fontSize:"20px"}}/>
-                </div>
+            <div class="image" style={{height:"500px"}}>
+                <img src="img/p6.jpg" alt=""/>
             </div>
         </div>
 
         <div class="box reveal">
-            <div class="image">
-                <img src="img/blog-3.jpg" alt=""/>
+            <div style={{paddingTop:"60px"}}>
+                <h1 class="heading">Meet The Artist <br/> Behind The Corsen <br/> Maria & Sophia</h1>
+                <h4 class="heading" style={{fontSize:"15px"}}>Lorem ipsum dolor sit amet consectetur <br/> adipisicing elit.
+                                          ipsum dolor sit amet consectetur adipisicing elit. Sint maiores
+                                         quod?
+                <button style={{marginTop:"10%", width:"200px", height:"40px", borderColor:"black", borderStyle:"solid"}}>SHOP COLLECTION</button>                         
+                </h4>
             </div>
             <div class="content">
-                <h3>Caitlin Henderson</h3>
-                <div class="icons">
-                    <a href="#"><i class="fas fa-calendar"></i>Creative Strategist</a>
-                </div>
-               <div className="flex items-center gap-5 reveal">
-                <BsFacebook style={{fontSize:"20px", display:"flex"}}/>
-                <BsLinkedin style={{fontSize:"20px"}}/>
-                <BsTwitter style={{fontSize:"20px"}}/>
-                </div>
             </div>
         </div>
 

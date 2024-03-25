@@ -22,6 +22,18 @@ const Footer = () => {
           <p className="text-base">United States</p>
           <p className="text-base">Privacy Policy</p>
         </div>
+        <div className="flex flex-col items-center lg:items-start gap-5">
+          <p className="text-xl font-medium">Find us here:</p>
+          <p className="text-base">Broklyn, NY 11201</p>
+          <p className="text-base">United States</p>
+          <p className="text-base">Privacy Policy</p>
+        </div>
+        <div className="flex flex-col items-center lg:items-start gap-5">
+          <p className="text-xl font-medium">Find us here:</p>
+          <p className="text-base">Broklyn, NY 11201</p>
+          <p className="text-base">United States</p>
+          <p className="text-base">Privacy Policy</p>
+        </div>
         <div className="flex items-center gap-5">
                 <BsFacebook className="text-3xl text-gray-500"/>
                 <BsTwitter className="text-3xl text-gray-500"/>

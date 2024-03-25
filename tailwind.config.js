@@ -4,6 +4,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./layouts/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js",
   ],
   theme: {
     container: {
@@ -66,5 +67,10 @@ module.exports = {
       },
     ],
   },
-  plugins: [ require("daisyui"),require('@tailwindcss/line-clamp')],
+  plugins: [
+    require("daisyui"),
+    require('@tailwindcss/line-clamp'),
+    require('flowbite/plugin')
+  ],
+  
 };

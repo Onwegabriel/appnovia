@@ -42,7 +42,7 @@ section{
 }
 
 .heading{
-  font-size: 4rem;
+  /* font-size: 4rem; */
   margin: 4rem 0;
   color: black;
   text-align: center;
@@ -143,7 +143,7 @@ section{
 .home{
   display: flex;
   align-items: center;
-  background: url(../public/img/home.png) no-repeat;
+  /* background: url(../public/img/home.png) no-repeat; */
   min-height: 110vh;
   background-size: cover;
   background-position: center;
@@ -297,10 +297,15 @@ section{
   background-color: black;
 } */
 .line{
-  width: 200px;
-  height: 5px;
-  background-color: black;
+  width: 100px;
+  height: 100px;
+  float: right;
+  border: #000000 solid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
+
 /* end */
 
 /* shop */
@@ -378,9 +383,9 @@ section{
 /* gallery */
 
 .gallery{
-  background: #f0f4ff;
+  background: #1547d3;
   height: 500px;
-  background-image: url(../public/Images/blog-2.jpg);
+  /* background-image: url(../public/Images/blog-2.jpg); */
   box-sizing: border-box;
 }
 
@@ -638,13 +643,19 @@ section{
   section{
     padding: 3rem;
   }
-
+  .content{
+    color: white;
+  }
 }
 
 @media (max-width: 768px){
 
   #menu{
     display: inline-block;
+  }
+
+  .content{
+    color: white;
   }
 
   .header .navbar{
@@ -683,6 +694,10 @@ section{
 
   .home .content h3{
     font-size: 5rem;
+    color: white;
+  }
+  .cross{
+    display: none;
   }
 
 }
@@ -690,6 +705,9 @@ section{
 @media (max-width: 450px){
   html{
     font-size: 50%;
+  }
+  .home .content h3{
+    color: white;
   }
 }
 

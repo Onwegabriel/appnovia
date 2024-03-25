@@ -4,12 +4,15 @@ import { useEffect } from "react";
 import Host from "../components/Host.js";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import Newsletter from "../components/Newsletter";
 import MoreInfoModal from "../components/MoreInfoModal";
 import MoreInfo from "../components/MoreInfoModal";
 import Navbar from "../components/Navbar";
 import Essential from "../components/Essential.js";
-import Toppodcast from "../components/Toppodcast.js";
 import Values from "../components/Values";
+import MyComponent from "../components/slide.js";
+import Policy from "../components/Policy.js";
+import Blog from "../components/Blog.js";
 
 
 export default function Home() {
@@ -21,6 +24,7 @@ export default function Home() {
     if (typeof window !== 'undefined') {
         require('../styles/script.js')
         require('../styles/bootstrap.bundle.min.js')
+        require('../styles/swipe.js')
     }
 
   }, [])
@@ -35,6 +39,8 @@ export default function Home() {
           rel="stylesheet"
         ></link>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+          <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
       </Head>
       
 
@@ -42,12 +48,18 @@ export default function Home() {
 
 
     <Hero/>
-    <Values/>
-    <Toppodcast/>
     <Essential/>
-   <MoreInfoModal/>
+    <MoreInfoModal/>
+    <Values/>
+    <Blog/>
+    <Newsletter />
    <Host/>
+   <MyComponent/>
+   <Policy/>
    <Footer/>
+
+
+
     </div>
   );
 }
